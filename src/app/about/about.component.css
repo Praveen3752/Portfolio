@@ -1,0 +1,11 @@
+.mydetailsdiv > div
+{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-gap: 25px;
+}
+
+.mydetailsdiv > div > span:nth-child(1)
+{
+    color: #2577b9;
+}

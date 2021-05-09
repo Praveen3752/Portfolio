@@ -1,0 +1,18 @@
+.projectsdiv
+{
+    padding: 8% 0%;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: poppins,Helvetica,sans-serif;
+    text-align: center;
+    flex-direction: column;
+}
+
+.gamesdiv
+{
+    width: 30%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 1px 1px 1px 1px black;
+    cursor: pointer;
+}

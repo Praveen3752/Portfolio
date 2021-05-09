@@ -1,0 +1,33 @@
+#bignamediv
+{
+    text-align: center;
+    font-size: 54px;
+    font-family: 'Brush Script MT', cursive;
+}
+
+
+#bigdiv
+{
+    color: white;
+    background: url('../../assets/portfolio-background.jpg');
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    margin-left: -1px;
+    position: relative;
+    height: 100%;
+    background-size: cover;
+}
+
+#bigdiv::before
+{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: #00000069;
+    /* background: #21212045; */
+    border-bottom-right-radius: 18px;
+    border-top-right-radius: 18px;
+}
